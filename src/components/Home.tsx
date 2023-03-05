@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Avatar from "@material-ui/core/Avatar";
 import Typography from "@material-ui/core/Typography";
 import ProjectTable from "./ProjectsTable";
+import ToggleButtonNotEmpty from "./ToggleButtons";
 
 const useStyles = makeStyles({
   root: {
@@ -46,6 +47,7 @@ const Home: React.FC = () => {
       </div>
 
       <ProjectTable></ProjectTable>
+      <ToggleButtonNotEmpty />
     </>
   );
 };
